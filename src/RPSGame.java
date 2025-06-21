@@ -35,25 +35,25 @@ public class RPSGame {
             } while (!done);
             if (playerAMove.equalsIgnoreCase("R")) {
                 if (playerBMove.equalsIgnoreCase("R")) {
-                    System.out.println("Rock vs Rock! Its a draw!");
+                    System.out.println("Rock vs Rock! It's a draw!");
                 } else if (playerBMove.equalsIgnoreCase("P")) {
                     System.out.println("Paper covers Rock! Player B wins!");
                 } else
-                    System.out.println("Rock breaks Scissor! Player A wins!");
+                    System.out.println("Rock breaks Scissors! Player A wins!");
             } else if (playerAMove.equalsIgnoreCase("P")) {
                 if (playerBMove.equalsIgnoreCase("R")) {
                     System.out.println("Paper covers Rock! Player A wins!");
                 } else if (playerBMove.equalsIgnoreCase("P")) {
-                    System.out.println("Paper vs Paper! Its a draw!");
+                    System.out.println("Paper vs Paper! It's a draw!");
                 } else
                     System.out.println("Scissors cuts paper! Player B wins!");
             } else {
-                if (playerBMove.equalsIgnoreCase("r")) {
+                if (playerBMove.equalsIgnoreCase("R")) {
                     System.out.println("Rock breaks Scissors! Player B wins!");
                 } else if (playerBMove.equalsIgnoreCase("P")) {
                     System.out.println("Scissors cuts Paper! Player A wins!");
                 } else
-                    System.out.println("Scissors vs Scissor! Its a draw!");
+                    System.out.println("Scissors vs Scissors! It's a draw!");
             }
             playAgainValidity = false;
             do {
